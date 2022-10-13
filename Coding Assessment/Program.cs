@@ -46,7 +46,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
             Console.WriteLine("Enter a whole number");
             num1 = Convert.ToInt16(Console.ReadLine());
             Console.WriteLine("Enter another whole number");
-            num2 = Convert.ToInt16(Console.ReadLine());
+            num2 = Convert.ToInt16(Console.ReadLine()); 
             int temp1 = num1;
             int temp2 = num2;
 
